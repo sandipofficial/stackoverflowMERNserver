@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "nodemon index.js",
+    "build": "npm i",
     "server": "node index.js"
   },
   "author": "Gautam Jha",
