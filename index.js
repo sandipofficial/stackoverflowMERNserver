@@ -32,6 +32,7 @@ app.get('/', (req, res) => {
   res.send("This is a stack overflow clone's API by Sandip Gardi")
 })
 
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`.bgBlue.white)
 })

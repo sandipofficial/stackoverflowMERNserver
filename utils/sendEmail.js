@@ -11,6 +11,7 @@ let transporter = nodemailer.createTransport({
   }
 })
 
+
 // test transporter
 transporter.verify((error, success) => {
   if (error) {
